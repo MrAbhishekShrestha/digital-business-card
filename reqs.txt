@@ -1,0 +1,7 @@
+- Fill in my own details 
+- separate components for: 
+    - Info (photo, name, buttons)
+    - About
+    - Interests
+    - Footer
+- Have both light theme and dark theme 
