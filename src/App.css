@@ -1,41 +1,136 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1A1B21;
+    width: 317px;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.info > img {
+    width: 317px;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.info > a {
+    text-decoration: none;
+    color: #F5F5F5;
+    font-weight: 400;
+    font-size: 10px;
+    padding-top: 9px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.name {
+    color: white; 
+    margin: 0;
+    font-size: 25px;
+    padding-top: 21px;
 }
 
-.card {
-  padding: 2em;
+.position {
+    color: #F3BF99;
+    margin: 0;
+    font-size: 13px; 
+    font-weight: 400;
+    padding-top: 6px;
 }
 
-.read-the-docs {
-  color: #888;
+.big-buttons {
+    padding-top: 15px;
+    display: flex;
+}
+
+.big-email {
+    margin-right: 17px;
+    border: 1px solid #D1D5DB;
+    display: flex;
+    justify-content: center;   
+    align-items: center; 
+    padding: 9px 20px 9px 20px;
+    border-radius: 6px;
+}
+
+.big-email > img {
+    width: 16px;
+    padding-right: 8px;
+}
+
+.big-email > span {
+    text-decoration: none;
+    font-weight: 500;
+    color: #374151;
+    font-size: 14px;
+}
+
+.big-email:hover {
+    cursor: pointer;
+}
+
+.big-linkedin {
+    background-color: #5093E2;
+    border: 1px solid #5093E2;
+    padding: 9px 20px 9px 20px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.big-linkedin > img {
+    width: 17px; 
+    padding-right: 8px;
+}
+
+.big-linkedin > span {
+    color: white;
+    font-size: 14px; 
+    font-weight: 500;
+}
+
+.big-linkedin:hover {
+    cursor: pointer;
+}
+
+.main-about, .main-interest {
+    background-color: #1A1B21;
+    padding: 33px 38px 0px 36px;
+    width: 243px;
+}
+
+.main-interest {
+    padding-top: 27px;
+    padding-bottom: 24px;
+}
+
+.title-about, .title-interest {
+    margin: 0;
+    color: #F5F5F5;
+    font-weight: 700;
+    line-height: 24px;
+    font-size: 16px;
+}
+
+.article-about, .article-interest {
+    margin: 0;
+    padding-top: 5px; 
+    font-weight: 400; 
+    font-size: 10px;
+    line-height: 15px;
+    color: #DCDCDC;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #161619;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    padding: 20px 72px;
+    width: 173px;
+}
+
+.footer > img {
+    width: 25px;
 }
